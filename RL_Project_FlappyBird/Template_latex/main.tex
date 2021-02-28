@@ -1,0 +1,110 @@
+
+\documentclass[letterpaper, 10 pt, conference]{ieeeconf}  % 
+\IEEEoverridecommandlockouts                              %
+\overrideIEEEmargins
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{graphics} % for pdf, bitmapped graphics files
+\usepackage{epsfig} % for postscript graphics files
+\usepackage{mathptmx} % assumes new font selection scheme installed
+\usepackage{mathptmx} % assumes new font selection scheme installed
+\usepackage{amsmath} % assumes amsmath package installed
+\usepackage{amssymb}  % assumes amsmath package installed
+
+\title{\LARGE \bf
+Report for Reinforcement Learning Project
+}
+
+
+\author{Put your name here% 
+}
+
+
+\begin{document}
+
+
+
+\maketitle
+\thispagestyle{empty}
+\pagestyle{empty}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+
+Make an abstract that summarises the report. Keep in mind that your report should not exceed 4 pages (without appendix and references) with a few figures in it. You don't need to write 4 pages to have a good report but to ask the good questions about your agent. You can also add interesting figures in the appendix if you need to. If you have used any source, use the references to add them.
+
+\end{abstract}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Presentation and Choice of the game}
+
+\subsection{Presentation of the game}
+
+You can present your game if it is not well-known. Explain what are the usual strategies and a quick description of the game. If you have made your own implementation of the game you should describe it here.
+
+\subsection{Choice of the game}
+
+Why have you chosen this game especially ? What is interesting in this game according to you ? What could be the new features that you can add to the game ? 
+
+\subsection{The environment}
+
+Describe your environment. The following questions might help you : 
+\begin{itemize}
+    \item What is your State Space ?
+    \item What is your Action Space
+    \item What is your Reward function ?
+    \item Is your environment deterministic or stochastic ? What are the probability distribution ? Can you change them ?
+    \item Does it have any link with real-life application ?
+\end{itemize}{}
+
+\section{Implementation of your agent}
+
+\subsection{Agent design}
+
+What kind of algorithms have you used for your agent ? Have you tested different solutions ? What architecture have you used if you used Deep Learning ? etc.
+
+You can put the equations that are related to your solution.
+
+
+\subsection{Implementation}
+
+Describe your exact implementation.
+
+What kind of trouble have you encountered during the implementation ? during the training ?
+
+You can add your learning curves here.
+
+\section{Evaluation of your agent}
+
+Describe the learned behaviour of your agents but also its fails. Explained its evaluation at different steps of the learning.
+\begin{itemize}
+    \item Compare your agents \textbf{amongst themselves} : training several agents allows you to compare them on specific tasks.
+    \item Compare your agents with \textbf{existing baselines} : Many agents already exists online for almost all games from the proposed list. You can compete with them. Don't expect to win against the State Of The Art agent !
+    \item Compare with \textbf{humans} : Are you better than your agent ? If it's adversarial, play against your agent many times to evaluate it. Otherwise, can you get a better score than him ? Is it better than an average human ? A pro player ?
+\end{itemize}{}
+
+Choose metrics such as cumulated rewards (or anything else !) to evaluate your agents.
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{APPENDIX}
+
+Put here other results that are not essential to understand how your agent behave. 
+
+You can also add here some remaining work or unfinished tasks that you haven't presented before.
+
+\begin{thebibliography}{}
+\bibitem{einstein} 
+Albert Einstein. 
+\textit{Zur Elektrodynamik bewegter K{\"o}rper}. (German) 
+[\textit{On the electrodynamics of moving bodies}]. 
+Annalen der Physik, 322(10):891–921, 1905.
+\end{thebibliography}{}
+
+
+\end{document}
